@@ -7,7 +7,7 @@ This is the final project for CS207 through the University of Regina. We will be
 # Features List 
 
 # Install Instructions
-## Talk about the frame build first? 
+### Talk about the frame build first? 
 
 ## start by ensuring the CPU  will  power the pumps (be hella detailed about which wires went where)
 
