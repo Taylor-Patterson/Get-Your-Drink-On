@@ -3,3 +3,21 @@ This is the final project for CS207 through the University of Regina. We will be
 
 
 # Tables of Contents
+
+
+# Features List 
+
+# Install Instructions 
+
+# Usage Section 
+
+# Planned Features
+
+# Bugs List 
+
+# Licenses 
+
+# Credits 
+
+# Thanks 
+
