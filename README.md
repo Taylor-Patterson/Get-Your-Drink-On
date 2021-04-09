@@ -32,6 +32,7 @@ This project uses a CPU power supply to provide the pumps (via the Elegoo) with 
 In order to power the pumps (via the Elegoo) and to ground the pumps, wires from the CPU P1 were hijacked: 
   - One of the black wires from P1 was cut and used to ground all pumps straight to the CPU.    
   - The green wire (PSU on) and ibe if the yellow wires (+12 V) were both used to provide power to the pumps via the Elegoo.
+
 See image below for the wires extracted from P1
 
 <img width="500" alt="Screen Shot 2021-04-09 at 10 31 00 AM" src="https://user-images.githubusercontent.com/79594183/114212184-c2ba7400-991e-11eb-8bda-e9ba688b2f73.png">
