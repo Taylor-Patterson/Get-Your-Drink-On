@@ -3,6 +3,14 @@ This is the final project for CS207 through the University of Regina. We will be
 
 
 # Tables of Contents
+1. Features List
+2. Install Instructions
+3. Usage Section 
+4. Planned Features
+5. Bugs List 
+6. Licenses 
+7. Credits 
+8. Thanks
 
 # Features List 
 Do you enjoy having leisurely beverages but hate mixing such drinks?! So do we. We created this project in the hopes that our leisure time would no longer be dampened by the hassle of making drinks and by arguments about whose turn it was to mix the next round of beverages. Another issued solved by this project is the fatal inaccuracy of liquid measuring, specifically alcohol measuring that tends to occur as the number of beverages consumed increases. This project allows for argument-free drinks that will remain accurately measured throughout the night, ensuring fun and ‘responsible’ social visits. Plus, you’ll get to impress guests with the awesome hardware and software skills required to make a drink robot. Now, get your drink on! 
