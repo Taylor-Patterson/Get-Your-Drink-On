@@ -1,2 +1,6 @@
 This project used Seafox_c’s project schematics to connect power source to the pumps via the CPU. 
-Their schematics can be found under the "schematics" section at the bottom of this website: https://create.arduino.cc/projecthub/florenmichael/cheap-portable-cocktail-maker-barbot-wit-app-4f9079
+Their schematics can be found under the "schematics" section at the bottom of this website:
+  https://create.arduino.cc/projecthub/florenmichael/cheap-portable-cocktail-maker-barbot-wit-app-4f9079
+
+It is important to note that our project used a different power source. We also used different pumps and did not attach transistors to them. 
+We also did not use the use the Bluetooth model HC-05. 
