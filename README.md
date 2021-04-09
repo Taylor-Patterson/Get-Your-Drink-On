@@ -36,13 +36,22 @@ connect the LEDS to the Arduino
 
 
 ### Button
-hijack the staples button and connect it to the Arduino 
+Hijack the staples button 
+<img width="500" alt="Screen Shot 2021-04-09 at 10 33 41 AM" src="https://user-images.githubusercontent.com/79594183/114212429-1036e100-991f-11eb-813e-8edacf29bb37.png">
+
+
+connect button to the Arduino Uno 
+<img width="500" alt="Screen Shot 2021-04-09 at 10 34 13 AM" src="https://user-images.githubusercontent.com/79594183/114212494-2349b100-991f-11eb-890c-cc8263cccb7e.png">
 
 
 
 ### Add all components to Frame
 Once everything has been wired you can add all components to the frame 
-(insert pic of this) 
+
+<img width="500" alt="Screen Shot 2021-04-09 at 10 42 36 AM" src="https://user-images.githubusercontent.com/79594183/114213538-504a9380-9920-11eb-8957-9c3a4e78e432.png">
+
+<img width="500" alt="Screen Shot 2021-04-09 at 10 44 52 AM" src="https://user-images.githubusercontent.com/79594183/114213747-9f90c400-9920-11eb-8c1a-5f8d6ef043b1.png">
+
 
 ### Now its Time to Code!
 (insert code maybe or guide user to check out the code in the code folder we made?) 
