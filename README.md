@@ -45,18 +45,34 @@ The yellow and green wires were directly connected to first relay of the Elegoo,
 
 The pumps receive positive voltage via the middle (second) pin on each relay. 
 
-*See pircutre below for clarification.*
+*See picture below for clarification.*
 
 <img width="500" alt="Screen Shot 2021-04-09 at 10 10 16 AM" src="https://user-images.githubusercontent.com/79594183/114209447-ddd7b480-991b-11eb-9508-23713e8b8035.png">
 
 
-Wiring the elegoo to the arduino 
+### Wiring the elegoo to the arduino 
+
+Digitl pins 2-9 on the Arduino Uno were directly connected to Elegoo as follows: 
+  - Pin 2 - IN1 
+  - Pin 3 - IN2
+  - Pin 4 - IN3
+  - Pin 5 - IN4
+  - Pin 6 - IN5
+  - Pin 7 - IN6
+  - Pin 8 - IN7
+  - Pin 9 - IN8
+  - GND - GND 
+  - Positve rail of bread board - VCC
+
+*See image below for overview*
 
 <img width="500" alt="Screen Shot 2021-04-09 at 10 13 49 AM" src="https://user-images.githubusercontent.com/79594183/114209994-7ec66f80-991c-11eb-8eb7-bbd2be6141ac.png">
 
 
 ## LED's
 ### Connecting the LEDS to the Arduino Uno
+
+
 
 <img width="500" alt="Screen Shot 2021-04-09 at 10 28 55 AM" src="https://user-images.githubusercontent.com/79594183/114211987-8a1a9a80-991e-11eb-9bbf-f9ef08f54d63.png">
 
