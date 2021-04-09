@@ -72,6 +72,13 @@ Digitl pins 2-9 on the Arduino Uno were directly connected to Elegoo as follows:
 ## LED's
 ### Connecting the LEDS to the Arduino Uno
 
+The LED's were wired by "wrapping" a wire to the negative leg and another to the positive leg (these wires differed in lenght depdning on how far they would be placed from the Arduino Uno). The wires were then attached to a jumper wire to ease connectivity with the breadboard and Arduino Uno. 
+All LED's received Ground from the bread board, via 560KOhm resistors, to ensure the LED's did not receive too much power. 
+LED1 was connected to the Arduino Uno via pin11. 
+LED2 was connected to the Arduino Uno via pin13. 
+LED3 was connected to the Arduino Uno via pin10. 
+
+*See image below for overview*
 
 
 <img width="500" alt="Screen Shot 2021-04-09 at 10 28 55 AM" src="https://user-images.githubusercontent.com/79594183/114211987-8a1a9a80-991e-11eb-9bbf-f9ef08f54d63.png">
@@ -80,17 +87,29 @@ Digitl pins 2-9 on the Arduino Uno were directly connected to Elegoo as follows:
 ## Button
 ### Hijacking the Easy button 
 
+The Easy button was taken apart by removing the 4 screws on the bottom and removing the "easy" cover.  2 wires were soldered, one to GND and one to WM1. A hole was drilled through the "easy" cover of the button in order for our newly attached wires to have an exit point. 
+  
+*See image below*
+
+No other modications were made as we wanted the speaker to continue saying "That was Easy" for our project.
+
 <img width="500" alt="Screen Shot 2021-04-09 at 10 33 41 AM" src="https://user-images.githubusercontent.com/79594183/114212429-1036e100-991f-11eb-813e-8edacf29bb37.png">
 
 
 ### Connecting button to the Arduino Uno 
 
+The Ground of the easy button was connected to the Ground on the bread board. 
+WM1 was connected to Pin12 on the Arduino Uno
+
+*See image below for overview*
+
 <img width="500" alt="Screen Shot 2021-04-09 at 10 34 13 AM" src="https://user-images.githubusercontent.com/79594183/114212494-2349b100-991f-11eb-890c-cc8263cccb7e.png">
 
 
-
 ## Add all components to Frame
-Once everything has been wired you can add all components to the frame 
+Once everything has been wired all components were added to the frame. 
+
+*See picture below for fully compleyted hardware*
 
 <img width="500" alt="Screen Shot 2021-04-09 at 10 42 36 AM" src="https://user-images.githubusercontent.com/79594183/114213538-504a9380-9920-11eb-8957-9c3a4e78e432.png">
 
@@ -98,8 +117,8 @@ Once everything has been wired you can add all components to the frame
 
 
 ## Now its Time to Code!
-(insert code maybe or guide user to check out the code in the code folder we made?) 
 
+Please refer to Code Folder for our final code. 
 
 # Usage Section 
 
