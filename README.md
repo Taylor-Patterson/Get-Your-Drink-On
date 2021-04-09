@@ -38,10 +38,6 @@ See image below for the wires extracted from P1
 <img width="500" alt="Screen Shot 2021-04-09 at 10 31 00 AM" src="https://user-images.githubusercontent.com/79594183/114212184-c2ba7400-991e-11eb-8bda-e9ba688b2f73.png">
 
 
-
-<img width="500" alt="Screen Shot 2021-04-09 at 10 31 20 AM" src="https://user-images.githubusercontent.com/79594183/114212219-ccdc7280-991e-11eb-824b-35198ef8b28d.png">
-
-
 ## Elegoo  
 ### Wiring the pumps to the elegoo and CPU
 
