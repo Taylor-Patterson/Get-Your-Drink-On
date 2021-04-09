@@ -5,6 +5,9 @@ This is the final project for CS207 through the University of Regina. We will be
 # Tables of Contents
 
 # Features List 
+Do you enjoy having leisurely beverages but hate mixing such drinks?! So do we. We created this project in the hopes that our leisure time would no longer be dampened by the hassle of making drinks and by arguments about whose turn it was to mix the next round of beverages. Another issued solved by this project is the fatal inaccuracy of liquid measuring, specifically alcohol measuring that tends to occur as the number of beverages consumed increases. This project allows for argument-free drinks that will remain accurately measured throughout the night, ensuring fun and ‘responsible’ social visits. Plus, you’ll get to impress guests with the awesome hardware and software skills required to make a drink robot. Now, get your drink on! 
+
+This project is based off the work of other creators including Seafox_c ((https://create.arduino.cc/projecthub/florenmichael/cheap-portable-cocktail-maker-barbot-wit-app-4f9079) and Ted Kinsman (https://makezine.com/projects/build-cocktail-drinkbot/). With the push of a Staples Easy Button, an Arduino Uno is coded to pour pre-determined amounts of liquid using 2 pumps, resulting in a freshly made Tequila Sunrise. Each pump and bottle has a corresponding LED with a unique colour. When no liquid is being poured, the LEDS will flicker in a linear, strobing pattern. When liquid is being poured, the LED corresponding to the pump/bottle that is in use will turn off, allowing the user to easily see which liquid is being poured.
 
 # Install Instructions
 
@@ -32,7 +35,7 @@ Wiring the elegoo to the arduino
 
 
 ## LED's
-### connecting the LEDS to the Arduino Uno
+### Connecting the LEDS to the Arduino Uno
 
 <img width="500" alt="Screen Shot 2021-04-09 at 10 28 55 AM" src="https://user-images.githubusercontent.com/79594183/114211987-8a1a9a80-991e-11eb-9bbf-f9ef08f54d63.png">
 
