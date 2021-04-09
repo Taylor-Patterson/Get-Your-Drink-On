@@ -12,25 +12,27 @@ This is the final project for CS207 through the University of Regina. We will be
 ### Power Supply for Pumps
 start by ensuring the CPU  will  power the pumps (be hella detailed about which wires went where)
 
-![CPU1](https://user-images.githubusercontent.com/79594183/114207600-c5ff3100-9919-11eb-9fd2-91fbb7c4befe.jpeg)
+<img width="500" alt="Screen Shot 2021-04-09 at 10 31 00 AM" src="https://user-images.githubusercontent.com/79594183/114212184-c2ba7400-991e-11eb-8bda-e9ba688b2f73.png">
 
-![CPU2](https://user-images.githubusercontent.com/79594183/114207619-cbf51200-9919-11eb-95af-093b194e7a34.jpeg)
+
+<img width="500" alt="Screen Shot 2021-04-09 at 10 31 20 AM" src="https://user-images.githubusercontent.com/79594183/114212219-ccdc7280-991e-11eb-824b-35198ef8b28d.png">
+
 
 ### Elegoo  
 Wiring the pumps to the elegoo and CPU
 
-<img width="653" alt="Screen Shot 2021-04-09 at 10 10 16 AM" src="https://user-images.githubusercontent.com/79594183/114209447-ddd7b480-991b-11eb-9508-23713e8b8035.png">
+<img width="500" alt="Screen Shot 2021-04-09 at 10 10 16 AM" src="https://user-images.githubusercontent.com/79594183/114209447-ddd7b480-991b-11eb-9508-23713e8b8035.png">
 
 
 Wiring the elegoo to the arduino 
 
-<img width="891" alt="Screen Shot 2021-04-09 at 10 13 49 AM" src="https://user-images.githubusercontent.com/79594183/114209994-7ec66f80-991c-11eb-8eb7-bbd2be6141ac.png">
+<img width="500" alt="Screen Shot 2021-04-09 at 10 13 49 AM" src="https://user-images.githubusercontent.com/79594183/114209994-7ec66f80-991c-11eb-8eb7-bbd2be6141ac.png">
 
 
 ### LED's
 connect the LEDS to the Arduino 
 
-<img width="538" alt="Screen Shot 2021-04-09 at 10 28 55 AM" src="https://user-images.githubusercontent.com/79594183/114211987-8a1a9a80-991e-11eb-9bbf-f9ef08f54d63.png">
+<img width="500" alt="Screen Shot 2021-04-09 at 10 28 55 AM" src="https://user-images.githubusercontent.com/79594183/114211987-8a1a9a80-991e-11eb-9bbf-f9ef08f54d63.png">
 
 
 ### Button
