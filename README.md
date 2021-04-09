@@ -28,10 +28,16 @@ Insert Pic
 ## Power Supply for Pumps
 ### Powering Pumps using CPU
 
+This project uses a CPU power supply to provide the pumps (via the Elegoo) with 12V DC. 
+Wires from the CPU P1 were hijacked: 
+  -In order to power the pumps (via the Elegoo) and to ground the pumps. One of the black wires from P1 was cut and used to ground all pumps straight to the CPU. The green wire
+  -
+
+as the Ground for all pumps. 
 
 <img width="500" alt="Screen Shot 2021-04-09 at 10 31 00 AM" src="https://user-images.githubusercontent.com/79594183/114212184-c2ba7400-991e-11eb-8bda-e9ba688b2f73.png">
 
-disfhsudkfhjsdkjfhd
+
 
 <img width="500" alt="Screen Shot 2021-04-09 at 10 31 20 AM" src="https://user-images.githubusercontent.com/79594183/114212219-ccdc7280-991e-11eb-824b-35198ef8b28d.png">
 
