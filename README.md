@@ -33,13 +33,19 @@ In order to power the pumps (via the Elegoo) and to ground the pumps, wires from
   - One of the black wires from P1 was cut and used to ground all pumps straight to the CPU.    
   - The green wire (PSU on) and ibe if the yellow wires (+12 V) were both used to provide power to the pumps via the Elegoo.
 
-See image below for the wires extracted from P1
+*See image below for the wires extracted from P1*
 
 <img width="500" alt="Screen Shot 2021-04-09 at 10 31 00 AM" src="https://user-images.githubusercontent.com/79594183/114212184-c2ba7400-991e-11eb-8bda-e9ba688b2f73.png">
 
 
 ## Elegoo  
 ### Wiring the pumps to the elegoo and CPU
+
+The yellow and green wires were directly connected to first relay of the Elegoo, via the third pin. Furthermore,relay 2 and 3 were powered by carrying the postive voltage via jumper wires. 
+
+The pumps receive positive voltage via the middle (second) pin on each relay. 
+
+*See pircutre below for clarification.*
 
 <img width="500" alt="Screen Shot 2021-04-09 at 10 10 16 AM" src="https://user-images.githubusercontent.com/79594183/114209447-ddd7b480-991b-11eb-9508-23713e8b8035.png">
 
