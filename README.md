@@ -152,7 +152,9 @@ Please refer to Code File for our fully functioning code.
 # Usage Section 
 
 With the push of a button a drink is easily made, and an LED will indicate which pump is currently dispensing liquid. 
-Simply insert the silicone hose into your choice of mix and Get-Your-Drink-On. 
+Simply insert the silicone hoses into your choice of mix and Get-Your-Drink-On. 
+
+In order for the build to work as desired simply follow the above instructions and copy-paste our code into your Arduino code, then you are set to go! 
 
 *click on the linke below for a video of our project!* 
 
@@ -161,7 +163,7 @@ https://user-images.githubusercontent.com/79594183/114253867-70eb0b80-9969-11eb-
 
 
 # Planned Features
-There are a number of improvements that can be made to this project. First, additional pumps and LEDs can easily be added to allow for a larger variety of cocktail options. Due to limited time, we were only able to use 2 pumps, but plan to add a third in the future. Additionally, Bluetooth capabilities could be added to the build to allow for drinks to be ‘ordered’ from mobile device. For instructions on how to incorporate this, review Seafox_c’s project ((https://create.arduino.cc/projecthub/florenmichael/cheap-portable-cocktail-maker-barbot-wit-app-4f9079). We had planned to incorporate Bluetooth as a ‘reach milestone’, but experienced a few setbacks that prevented this.
+There are a number of improvements that can be made to this project. First, additional pumps and LEDs can easily be added to allow for a larger variety of cocktail options. Due to limited time, we were only able to use 2 pumps, but plan to add a third in the future. Additionally, Bluetooth capabilities could be added to the build to allow for drinks to be ‘ordered’ from mobile device. For instructions on how to incorporate this, review Seafox_c’s project (https://create.arduino.cc/projecthub/florenmichael/cheap-portable-cocktail-maker-barbot-wit-app-4f9079). We had planned to incorporate Bluetooth as a ‘reach milestone’, but experienced a few setbacks that prevented this.
 
 # Bugs List 
 We ran into a number of issues while working on this project. A major setback we experienced was finding a power source to run the pumps that was relatively simple to connect and cheap. Since we were both beginners, we had a lot of difficulty understanding what would work as a power supply. Thankfully, our professor, Dr. Tomesh, was able to provide us with guidance and a CPU. 
