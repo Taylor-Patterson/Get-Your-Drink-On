@@ -15,14 +15,37 @@ This is the final project for CS207 through the University of Regina. We will be
 # Features List 
 Do you enjoy having leisurely beverages but hate mixing such drinks?! So do we. We created this project in the hopes that our leisure time would no longer be dampened by the hassle of making drinks and by arguments about whose turn it was to mix the next round of beverages. Another issued solved by this project is the fatal inaccuracy of liquid measuring, specifically alcohol measuring that tends to occur as the number of beverages consumed increases. This project allows for argument-free drinks that will remain accurately measured throughout the night, ensuring fun and ‘responsible’ social visits. Plus, you’ll get to impress guests with the awesome hardware and software skills required to make a drink robot. Now, get your drink on! 
 
-This project is based off the work of other creators including Seafox_c ((https://create.arduino.cc/projecthub/florenmichael/cheap-portable-cocktail-maker-barbot-wit-app-4f9079) and Ted Kinsman (https://makezine.com/projects/build-cocktail-drinkbot/). With the push of a Staples Easy Button, an Arduino Uno is coded to pour pre-determined amounts of liquid using 2 pumps, resulting in a freshly made Tequila Sunrise. Each pump and bottle has a corresponding LED with a unique colour. When no liquid is being poured, the LEDS will flicker in a linear, strobing pattern. When liquid is being poured, the LED corresponding to the pump/bottle that is in use will turn off, allowing the user to easily see which liquid is being poured.
+This project is based off the work of other creators including Seafox_c (https://create.arduino.cc/projecthub/florenmichael/cheap-portable-cocktail-maker-barbot-wit-app-4f9079) and Ted Kinsman (https://makezine.com/projects/build-cocktail-drinkbot/). With the push of a Staples Easy Button, an Arduino Uno is coded to pour pre-determined amounts of liquid using 2 pumps, resulting in a freshly made Tequila Sunrise. Each pump and bottle has a corresponding LED with a unique colour. When no liquid is being poured, the LEDS will flicker in a linear, strobing pattern. When liquid is being poured, the LED corresponding to the pump/bottle that is in use will turn off, allowing the user to easily see which liquid is being poured.
 
 # Install Instructions
 
+## List of Components 
+  - Arduino Uno
+  - Generic Breadboard
+  - CPU
+  - 12V water pumps (3)
+  - 560K Ohm Resisotrs (3)
+  - Jumper Wires 
+  - Male/Female Jumper wires 
+  - Elegoo Relay Module 8 Channel 5V 
+  - Silicone hose (width dependent on pumps and length dependent on build)
+  - Wood to build frame 
+  - Funnel 
+  - Push button  
+
 ## Frame Build
 
-Insert Pic 
+2 - 4 by 1 inch boards were cut at a lenght of 2 feet. Another 4 by 1 inch board was attached perpendicularly to the first 2 boards using screws. This created the base of the stand. 
+2- 6 by 1 inch boards were cut at a length of 22inches and vertically attached to either side of the base using screws. 
+A 22inch board was placed on the vertical boards to create the top of the frame. Another 22inch board was cut and screwed to the back of the vertical boards, creating the backing. On this backing 3 holes were drilled for the pump wires and 3 holes were drilled for the LEDs. 
+A small board was attached in front of the pumps and 3 holes were drilled for the silicone hoses to run through. A funnel was mounted to the bottom of the small board to collect the liquid from all of the houses and pour it into 1 cup. 
 
+These dimensions could easily be modified depending on the needs of the project or preference. 
+
+*See picture below for our original blue print* 
+*See pictures of completed build for visual overview*
+
+<img width="500" alt="Screen Shot 2021-04-09 at 7 17 40 PM" src="https://user-images.githubusercontent.com/79594183/114253689-6714d880-9968-11eb-8f1f-929302c36e30.png">
 
 
 ## Power Supply for Pumps
@@ -73,7 +96,7 @@ Digitl pins 2-9 on the Arduino Uno were directly connected to Elegoo as follows:
 ### Connecting the LEDS to the Arduino Uno
 
 The LED's were wired by "wrapping" a wire to the negative leg and another to the positive leg (these wires differed in lenght depdning on how far they would be placed from the Arduino Uno). The wires were then attached to a jumper wire to ease connectivity with the breadboard and Arduino Uno. 
-All LED's received Ground from the bread board, via 560KOhm resistors, to ensure the LED's did not receive too much power. 
+All LED's received Ground from the bread board, via 560KOhm resistors, to ensure the LED's did not receive too much power. 3 560KOhm resistors were used for LED2 as it was brighter than the rest and we wished to dull its brightness.  
 LED1 was connected to the Arduino Uno via pin11. 
 LED2 was connected to the Arduino Uno via pin13. 
 LED3 was connected to the Arduino Uno via pin10. 
@@ -115,12 +138,21 @@ Once everything has been wired all components were added to the frame.
 
 <img width="500" alt="Screen Shot 2021-04-09 at 10 44 52 AM" src="https://user-images.githubusercontent.com/79594183/114213747-9f90c400-9920-11eb-8c1a-5f8d6ef043b1.png">
 
+## Schematic
+
+(make an overall schematic)
+
 
 ## Now its Time to Code!
 
-Please refer to Code Folder for our final code. 
+Please refer to Code File for our fully functioning code. 
 
 # Usage Section 
+
+
+https://user-images.githubusercontent.com/79594183/114253867-70eb0b80-9969-11eb-97e5-9b551813fb7d.mp4
+
+
 
 # Planned Features
 There are a number of improvements that can be made to this project. First, additional pumps and LEDs can easily be added to allow for a larger variety of cocktail options. Due to limited time, we were only able to use 2 pumps, but plan to add a third in the future. Additionally, Bluetooth capabilities could be added to the build to allow for drinks to be ‘ordered’ from mobile device. For instructions on how to incorporate this, review Seafox_c’s project ((https://create.arduino.cc/projecthub/florenmichael/cheap-portable-cocktail-maker-barbot-wit-app-4f9079). We had planned to incorporate Bluetooth as a ‘reach milestone’, but experienced a few setbacks that prevented this.
@@ -128,32 +160,10 @@ There are a number of improvements that can be made to this project. First, addi
 # Bugs List 
 We ran into a number of issues while working on this project. A major setback we experienced was finding a power source to run the pumps that was relatively simple to connect and cheap. Since we were both beginners, we had a lot of difficulty understanding what would work as a power supply. Thankfully, our professor, Dr. Tomesh, was able to provide us with guidance and a CPU. 
 Another issue we encountered was with wiring the LEDs. The other projects we looked at connected a resistor directly onto one leg of each LED. As such, we trusted this processed and soldered a 560 ohm resistor onto the negative leg of each LED. However, we found that the LEDs would not light up with the resistors attached in this way. As a solution, we cut off the soldered resistors and placed new ones directly onto the Arduino breadboard and chose instead to strip about 1 cm of wire (positive and negative) and wind it around each leg of the LED. 
-Additionally, we had trouble coding the Easy Button so that it would communicate with the motors. However, a meeting with Dr. Tomesh solved this project as he provided some additional guidance. 
-The final issue we encountered was that one of our pumps did not work when we took it out of the box due to a manufacturers defect. As such, this project only used 2 pumps instead of the anticipated 3 pumps. This problem was easily resolved by contacting Amazon and sending the pump back. Unfortunately, there was not enough time to receive another pump before the project was due, but we have ordered another and will insert it in the future.
+Additionally, we had trouble coding the Easy Button so that it would communicate with the motors. However, a meeting with Dr. Tomesh solved this project as he provided some additional guidance. (talk about how the button didnt work) 
+The final issue we encountered was that one of our pumps did not work when we took it out of the box due to a manufacturers defect. As such, this project only used 2 pumps instead of the anticipated 3 pumps. This problem was easily resolved by contacting Amazon and sending the pump back. Unfortunately, there was not enough time to receive another pump before the project was due, but we have ordered another and will insert it in the future. (talk about the priming buttons) 
 
-# Licenses 
-(Stolen directly from Tori’s GitHub)
 
-This is free and unencumbered software released into the public domain.
-Anyone is free to copy, modify, publish, use, compile, sell, or
-distribute this software, either in source code form or as a compiled
-binary, for any purpose, commercial or non-commercial, and by any
-means.
-In jurisdictions that recognize copyright laws, the author or authors
-of this software dedicate any and all copyright interest in the
-software to the public domain. We make this dedication for the benefit
-of the public at large and to the detriment of our heirs and
-successors. We intend this dedication to be an overt act of
-relinquishment in perpetuity of all present and future rights to this
-software under copyright law.
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
-IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR
-OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
-ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
-OTHER DEALINGS IN THE SOFTWARE.
-For more information, please refer to https://unlicense.org
 
 # Credits 
 Seafox_c’s project served to guide us on how to connect the elegoo to the Arduino and the pumps to the elegoo. This project also explains how Bluetooth capabilities could be incorporated:
