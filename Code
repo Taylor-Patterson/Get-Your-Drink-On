@@ -1,1 +1,125 @@
- 
+/* 
+ *  This code was written by Taylor Patterson and Maria Garcia Vargas
+ *  for a final project as part of CS207. 
+ *  
+ *  The code is used to control a "Drink Bot" that is programmed to make 
+ *  Tequila Sunrises. Note that the TequilaTime and OJTime may need to be 
+ *  adjusted depending on the pumps used and the desired strength of cocktail. 
+ */
+
+//Introduce Variables:
+
+//Pumps:
+int pump1 = 2;
+int pump2 = 3;
+
+//LEDs:
+const int greenLED = 10;
+const int blueLED = 13;
+const int redLED = 11;
+
+PushButton:
+const int button = 12;
+int buttonstate = 0;
+
+Time Delays: 
+const int StrobeTime = 200; //delay between LED flashes
+const int TequilaTime = 6000; // how long pump needs to run to pour X oz of Tequila 
+const int OJTime = 6000; // how long pump needs to run to pour X oz of Orange Juice 
+
+
+
+void setup() {
+  
+  //Set all LEDs as outputs:
+  pinMode (greenLED, OUTPUT);
+  pinMode (blueLED, OUTPUT);
+  pinMode (redLED, OUTPUT);
+  //pumps
+  pinMode (pump1, OUTPUT);
+  pinMode (pump2, OUTPUT);
+  pinMode (pump3, OUTPUT);
+
+  //Set button as an input:
+  pinMode (button, INPUT);
+
+//set pumps to 0
+int pump1 = 0; 
+int pump2 = 0; 
+int pump3 = 0; 
+}
+
+void loop() {
+
+ //HIGH MEANS OFF FOR PUMPs, we want them all turned off initially 
+ digitalWrite (pump1, HIGH); 
+ digitalWrite (pump2, HIGH); 
+ digitalWrite (pump3, HIGH); 
+
+//This is the code to achieve "strobing" LEDs, which will initiate upon powering the device 
+   digitalWrite (greenLED, HIGH);
+  delay (StrobeTime);
+ digitalWrite (greenLED, LOW);
+   delay (StrobeTime);
+
+  digitalWrite (blueLED, HIGH);
+   delay (StrobeTime);
+ digitalWrite (blueLED, LOW);
+   delay(StrobeTime);
+
+  digitalWrite (redLED, HIGH);
+   delay (StrobeTime);
+digitalWrite (redLED, LOW);
+  delay (StrobeTime);
+
+//we need to read whether the button has been pressed (button state variable does this) 
+   buttonstate = digitalRead (button);  
+
+ //Drink Making Code:
+if (buttonstate == LOW) { // if button is pressed
+//turn off all LEDs
+  digitalWrite (greenLED, LOW);
+  digitalWrite (blueLED, LOW);
+  digitalWrite (redLED, LOW);
+delay (StrobeTime); 
+
+//Turn on Red LED and Pump 1 for TEQUILA 
+digitalWrite (redLED, HIGH);
+ digitalWrite (pump1, LOW);
+delay(TequilaTime); //wait required time to dispense X oz Tequila 
+//turn off pump1 and red led
+digitalWrite (redLED, LOW); 
+digitalWrite(pump1, HIGH); 
+
+delay (4000); //This will create a pause between pumps, but isn't necessary, can be removed if desired
+
+//Turn on Blue LED and Pump 2 for OJ
+digitalWrite (blueLED, HIGH);
+ digitalWrite (pump2, LOW);
+delay(OJTime); //wait required time to dispense X oz OJ 
+//turn off pump2 and blue led
+digitalWrite (blueLED, LOW); 
+digitalWrite(pump2, HIGH); 
+}
+else { //If button is not pressed, strobe the lights in the original pattern 
+  //strobe lights
+   digitalWrite (pump1, HIGH); 
+ digitalWrite (pump2, HIGH); 
+ digitalWrite (pump3, HIGH); 
+
+   digitalWrite (greenLED, HIGH);
+  delay (StrobeTime);
+ digitalWrite (greenLED, LOW);
+   delay (StrobeTime);
+
+  digitalWrite (blueLED, HIGH);
+   delay (StrobeTime);
+ digitalWrite (blueLED, LOW);
+   delay(StrobeTime);
+
+  digitalWrite (redLED, HIGH);
+   delay (StrobeTime);
+digitalWrite (redLED, LOW);
+  delay (StrobeTime);
+}
+} 
