@@ -111,7 +111,7 @@ LED3 was connected to the Arduino Uno via pin10.
 ## Button
 ### Hijacking the Easy button 
 
-The Easy button was taken apart by removing the 4 screws on the bottom and removing the "easy" cover.  2 wires were soldered, one to GND and one to WM1. A hole was drilled through the "easy" cover of the button in order for our newly attached wires to have an exit point. 
+The Easy button was taken apart by removing the 4 screws on the bottom and removing the "easy" cover.  2 wires were soldered, one to GND and one to PWM1. A hole was drilled through the "easy" cover of the button in order for our newly attached wires to have an exit point. 
   
 *See image below*
 
