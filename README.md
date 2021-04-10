@@ -29,6 +29,7 @@ This project is based off the work of other creators including Seafox_c ((https:
   - Jumper Wires 
   - Male/Female Jumper wires 
   - Elegoo Relay Module 8 Channel 5V 
+  - LEDs
   - Silicone hose (width dependent on pumps and length dependent on build)
   - Wood to build frame 
   - Funnel 
