@@ -15,7 +15,8 @@ This is the final project for CS207 through the University of Regina. We will be
 # Features List 
 Do you enjoy having leisurely beverages but hate mixing such drinks?! So do we. We created this project in the hopes that our leisure time would no longer be dampened by the hassle of making drinks and by arguments about whose turn it was to mix the next round of beverages. Another issued solved by this project is the fatal inaccuracy of liquid measuring, specifically alcohol measuring that tends to occur as the number of beverages consumed increases. This project allows for argument-free drinks that will remain accurately measured throughout the night, ensuring fun and ‘responsible’ social visits. Plus, you’ll get to impress guests with the awesome hardware and software skills required to make a drink robot. Now, get your drink on! 
 
-This project is based off the work of other creators including Seafox_c (https://create.arduino.cc/projecthub/florenmichael/cheap-portable-cocktail-maker-barbot-wit-app-4f9079) and Ted Kinsman (https://makezine.com/projects/build-cocktail-drinkbot/). With the push of a Staples Easy Button, an Arduino Uno is coded to pour pre-determined amounts of liquid using 2 pumps, resulting in a freshly made Tequila Sunrise. Each pump and bottle has a corresponding LED with a unique colour. When no liquid is being poured, the LEDS will flicker in a linear, strobing pattern. When liquid is being poured, the LED corresponding to the pump/bottle that is in use will turn off, allowing the user to easily see which liquid is being poured.
+This project is based off the work of other creators including Seafox_c ((https://create.arduino.cc/projecthub/florenmichael/cheap-portable-cocktail-maker-barbot-wit-app-4f9079) and Ted Kinsman (https://makezine.com/projects/build-cocktail-drinkbot/). With the push of a Button, an Arduino Uno is coded to pour pre-determined amounts of liquid using 2 pumps, resulting in a freshly made Tequila Sunrise. Each pump and bottle has a corresponding LED with a unique colour. When no liquid is being poured, the LEDS will flicker in a linear, strobing pattern. When liquid is being poured, the LED corresponding to the pump/bottle that is in use will turn off, allowing the user to easily see which liquid is being poured. 
+
 
 # Install Instructions
 
@@ -142,7 +143,11 @@ Once everything has been wired all components were added to the frame.
 
 ## Schematic
 
-(make an overall schematic)
+A schematic created by Seafox_c was used (*see picture below*), for details on how our project varied from theirs please see our Schematic File. 
+
+<img width="500" alt="Screen Shot 2021-04-09 at 8 01 50 PM" src="https://user-images.githubusercontent.com/79594183/114254752-6f701200-996e-11eb-9739-c140758466aa.png">
+
+
 
 
 ## Now its Time to Code!
@@ -172,7 +177,7 @@ https://user-images.githubusercontent.com/79594183/114253867-70eb0b80-9969-11eb-
 
 
 # Planned Features
-There are a number of improvements that can be made to this project. First, additional pumps and LEDs can easily be added to allow for a larger variety of cocktail options. Due to limited time, we were only able to use 2 pumps, but plan to add a third in the future. Additionally, Bluetooth capabilities could be added to the build to allow for drinks to be ‘ordered’ from mobile device. For instructions on how to incorporate this, review Seafox_c’s project (https://create.arduino.cc/projecthub/florenmichael/cheap-portable-cocktail-maker-barbot-wit-app-4f9079). We had planned to incorporate Bluetooth as a ‘reach milestone’, but experienced a few setbacks that prevented this.
+There are a number of improvements that can be made to this project. First, additional pumps and LEDs can easily be added to allow for a larger variety of cocktail options. Due to limited time, we were only able to use 2 pumps, but plan to add a third in the future. Additionally, Bluetooth capabilities could be added to the build to allow for drinks to be ‘ordered’ from mobile device. For instructions on how to incorporate this, review Seafox_c’s project ((https://create.arduino.cc/projecthub/florenmichael/cheap-portable-cocktail-maker-barbot-wit-app-4f9079). We had planned to incorporate Bluetooth as a ‘reach milestone’, but experienced a few setbacks that prevented this. 
 
 # Bugs List 
 We ran into a number of issues while working on this project. A major setback we experienced was finding a power source to run the pumps that was relatively simple to connect and cheap. Since we were both beginners, we had a lot of difficulty understanding what would work as a power supply. Thankfully, our professor, Dr. Tomesh, was able to provide us with guidance and a CPU. 
