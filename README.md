@@ -43,6 +43,7 @@ A small board was attached in front of the pumps and 3 holes were drilled for th
 These dimensions could easily be modified depending on the needs of the project or preference. 
 
 *See picture below for our original blue print* 
+
 *See pictures of completed build for visual overview*
 
 <img width="500" alt="Screen Shot 2021-04-09 at 7 17 40 PM" src="https://user-images.githubusercontent.com/79594183/114253689-6714d880-9968-11eb-8f1f-929302c36e30.png">
