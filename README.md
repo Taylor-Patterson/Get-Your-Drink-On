@@ -149,6 +149,15 @@ Once everything has been wired all components were added to the frame.
 
 Please refer to Code File for our fully functioning code. 
 
+<img width="500" alt="Screen Shot 2021-04-09 at 7 55 12 PM" src="https://user-images.githubusercontent.com/79594183/114254602-95e17d80-996d-11eb-8741-188f0f58e514.png">
+
+<img width="650" alt="Screen Shot 2021-04-09 at 7 56 10 PM" src="https://user-images.githubusercontent.com/79594183/114254612-a8f44d80-996d-11eb-8e19-8ed132c97973.png">
+
+<img width="829" alt="Screen Shot 2021-04-09 at 7 56 33 PM" src="https://user-images.githubusercontent.com/79594183/114254619-b14c8880-996d-11eb-9a48-ed603c0ccc2e.png">
+
+<img width="767" alt="Screen Shot 2021-04-09 at 7 56 50 PM" src="https://user-images.githubusercontent.com/79594183/114254626-bc071d80-996d-11eb-9039-1092b3cdf3ef.png">
+
+
 # Usage Section 
 
 With the push of a button a drink is easily made, and an LED will indicate which pump is currently dispensing liquid. 
