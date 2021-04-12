@@ -67,9 +67,9 @@ In order to power the pumps (via the Elegoo) and to ground the pumps, wires from
 ## Elegoo  
 ### Wiring the pumps to the elegoo and CPU
 
-The yellow and green wires were directly connected to first relay of the Elegoo, via the third pin. Furthermore,relay 2 and 3 were powered by carrying the postive voltage via jumper wires. 
+The yellow and green wires were directly connected to the first relay of the Elegoo, via the third pin. Furthermore,relay 2 and 3 were powered by carrying the postive voltage via jumper wires. 
 
-The pumps receive positive voltage via the middle (second) pin on each relay. 
+The pumps received positive voltage via the middle (second) pin on each relay. 
 
 *See picture below for clarification.*
 
