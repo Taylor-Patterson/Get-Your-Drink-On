@@ -181,9 +181,14 @@ https://user-images.githubusercontent.com/79594183/114253867-70eb0b80-9969-11eb-
 There are a number of improvements that can be made to this project. First, additional pumps and LEDs can easily be added to allow for a larger variety of cocktail options. Due to limited time, we were only able to use 2 pumps, but plan to add a third in the future. Additionally, Bluetooth capabilities could be added to the build to allow for drinks to be ‘ordered’ from mobile device. For instructions on how to incorporate this, review Seafox_c’s project ((https://create.arduino.cc/projecthub/florenmichael/cheap-portable-cocktail-maker-barbot-wit-app-4f9079). We had planned to incorporate Bluetooth as a ‘reach milestone’, but experienced a few setbacks that prevented this. 
 
 # Bugs List 
-We ran into a number of issues while working on this project. A major setback we experienced was finding a power source to run the pumps that was relatively simple to connect and cheap. Since we were both beginners, we had a lot of difficulty understanding what would work as a power supply. Thankfully, our professor, Dr. Tomesh, was able to provide us with guidance and a CPU. 
-Another issue we encountered was with wiring the LEDs. The other projects we looked at connected a resistor directly onto one leg of each LED. As such, we trusted this processed and soldered a 560 ohm resistor onto the negative leg of each LED. However, we found that the LEDs would not light up with the resistors attached in this way. As a solution, we cut off the soldered resistors and placed new ones directly onto the Arduino breadboard and chose instead to strip about 1 cm of wire (positive and negative) and wind it around each leg of the LED. 
+We ran into a number of issues while working on this project. A major setback we experienced was finding a power source to run the pumps that was relatively simple to connect as well as inexpensive. Since we were both beginners, we had a lot of difficulty understanding what would work as a power supply. Thankfully, our professor, Dr. Tomesh, was able to provide us with guidance and a CPU. 
+
+Another issue we encountered was with wiring the LEDs. The other projects we looked at connected a resistor directly onto one leg of each LED. As such, we trusted this process and soldered a 560 ohm resistor onto the negative leg of each LED. However, we found that the LEDs would not light up with the resistors attached in this way. As a solution, we cut off the soldered resistors and placed new ones directly onto the Arduino breadboard and chose instead to strip about 1 cm of wire (positive and negative) and wind it around each leg of the LED. 
+
+
 Additionally, we had trouble coding the Easy Button so that it would communicate with the Arduino Uno. After a meeting with Dr. Tomesh it was decided that the easy button was not an optimal option for this project and a standard push button was wired into the bread board.  
+
+
 The final issue we encountered was that one of our pumps did not work when we took it out of the box due to a manufacturers defect. As such, this project only used 2 pumps instead of the anticipated 3 pumps. This problem was easily resolved by contacting Amazon and sending the pump back. Unfortunately, there was not enough time to receive another pump before the project was due, but we have ordered another and will insert it in the future. Furthermore, the pumps that did work were not able to pull the liquid up and into the pump (the force of gravity seems to be stronger than the force of the pump). In order to get the liquid to the pumps they needed to be primed (liquid had to be sucked into the pump). Once liquid had entered the pump, they were able to continue pumping the liquid. This is why in our usage video the hoses must be held, as the liquid has been primed into the pump ahead of time. 
 
 
@@ -192,7 +197,7 @@ The final issue we encountered was that one of our pumps did not work when we to
 Seafox_c’s project served to guide us on how to connect the elegoo to the Arduino and the pumps to the elegoo. This project also explains how Bluetooth capabilities could be incorporated:
 https://create.arduino.cc/projecthub/florenmichael/cheap-portable-cocktail-maker-barbot-wit-app-4f9079
 
-Ted Kinsman’s project helped us to write the code for making the LEDs strobe and for coding the Easy button:
+Ted Kinsman’s project helped us to write the code for making the LEDs strobe and for coding the push button:
 https://makezine.com/projects/build-cocktail-drinkbot/
 
 In order to wire the CPU to the elegoo, the following resource was used: 
