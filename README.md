@@ -136,7 +136,7 @@ PWM1 was connected to Pin12 on the Arduino Uno
 ## Add all components to Frame
 Once everything had been wired all components were added to the frame. 
 
-*See picture below for fully compleyted hardware*
+*See picture below for fully completed hardware*
 
 <img width="500" alt="Screen Shot 2021-04-09 at 10 42 36 AM" src="https://user-images.githubusercontent.com/79594183/114213538-504a9380-9920-11eb-8957-9c3a4e78e432.png">
 
