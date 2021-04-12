@@ -153,7 +153,7 @@ A schematic created by Seafox_c was used (*see picture below*), for details on h
 
 ## Now its Time to Code!
 
-*Please refer to Code File for our fully functioning easy to copy-paste code.* 
+*Please refer to the Code File for our fully functioning and easy to copy-paste code.* 
 
 <img width="500" alt="Screen Shot 2021-04-09 at 7 55 12 PM" src="https://user-images.githubusercontent.com/79594183/114254602-95e17d80-996d-11eb-8741-188f0f58e514.png">
 
