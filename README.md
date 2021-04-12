@@ -121,7 +121,7 @@ No other modifications were made as we wanted the speaker to continue saying "Th
 
 <img width="500" alt="Screen Shot 2021-04-09 at 10 33 41 AM" src="https://user-images.githubusercontent.com/79594183/114212429-1036e100-991f-11eb-813e-8edacf29bb37.png">
 
-** Sadly we were unable to hijack the easy button and a regular push button was wired into the bread board instead **
+**Sadly we were unable to hijack the easy button and a regular push button was wired into the bread board instead**
 
 ### Connecting button to the Arduino Uno 
 
