@@ -15,7 +15,7 @@ This is the final project for CS207 through the University of Regina. We will be
 # Features List 
 Do you enjoy having leisurely beverages but hate mixing such drinks?! So do we. We created this project in the hopes that our leisure time would no longer be dampened by the hassle of making drinks and by arguments about whose turn it was to mix the next round of beverages. Another issued solved by this project is the fatal inaccuracy of liquid measuring, specifically alcohol measuring that tends to occur as the number of beverages consumed increases. This project allows for argument-free drinks that will remain accurately measured throughout the night, ensuring fun and ‘responsible’ social visits. Plus, you’ll get to impress guests with the awesome hardware and software skills required to make a drink robot. Now, get your drink on! 
 
-This project is based off the work of other creators including Seafox_c ((https://create.arduino.cc/projecthub/florenmichael/cheap-portable-cocktail-maker-barbot-wit-app-4f9079) and Ted Kinsman (https://makezine.com/projects/build-cocktail-drinkbot/). With the push of a Button, an Arduino Uno is coded to pour pre-determined amounts of liquid using 2 pumps, resulting in a freshly made Tequila Sunrise. Each pump and bottle has a corresponding LED with a unique colour. When no liquid is being poured, the LEDS will flicker in a linear, strobing pattern. When liquid is being poured, the LED corresponding to the pump/bottle that is in use will turn off, allowing the user to easily see which liquid is being poured. 
+This project is based off the work of other creators including Seafox_c ((https://create.arduino.cc/projecthub/florenmichael/cheap-portable-cocktail-maker-barbot-wit-app-4f9079) and Ted Kinsman (https://makezine.com/projects/build-cocktail-drinkbot/). With the push of a Button, an Arduino Uno is coded to pour pre-determined amounts of liquid using 2 pumps, resulting in a freshly made Tequila Sunrise. Each pump and bottle has a corresponding LED with a unique colour. When no liquid is being poured, the LEDS will flicker in a linear, strobing pattern. When liquid is being poured, the LED corresponding to the pump/bottle that is in use will turn on, allowing the user to easily see which liquid is being poured. 
 
 
 # Install Instructions
@@ -37,7 +37,7 @@ This project is based off the work of other creators including Seafox_c ((https:
 
 ## Frame Build
 
-2 - 4 by 1 inch boards were cut at a lenght of 2 feet. Another 4 by 1 inch board was attached perpendicularly to the first 2 boards using screws. This created the base of the stand. 
+2 - 4 by 1 inch boards were cut at a length of 2 feet. Another 4 by 1 inch board was attached perpendicularly to the first 2 boards using screws. This created the base of the stand. 
 2- 6 by 1 inch boards were cut at a length of 22inches and vertically attached to either side of the base using screws. 
 A 22inch board was placed on the vertical boards to create the top of the frame. Another 22inch board was cut and screwed to the back of the vertical boards, creating the backing. On this backing 3 holes were drilled for the pump wires and 3 holes were drilled for the LEDs. 
 A small board was attached in front of the pumps and 3 holes were drilled for the silicone hoses to run through. A funnel was mounted to the bottom of the small board to collect the liquid from all of the houses and pour it into 1 cup. 
@@ -57,7 +57,7 @@ These dimensions could easily be modified depending on the needs of the project 
 This project uses a CPU power supply to provide the pumps (via the Elegoo) with 12V DC. 
 In order to power the pumps (via the Elegoo) and to ground the pumps, wires from the CPU P1 were hijacked: 
   - One of the black wires from P1 was cut and used to ground all pumps straight to the CPU.    
-  - The green wire (PSU on) and ibe if the yellow wires (+12 V) were both used to provide power to the pumps via the Elegoo.
+  - The green wire (CPU on) and one of the yellow wires (+12 V) were both used to provide power to the pumps via the Elegoo.
 
 *See image below for the wires extracted from P1*
 
@@ -98,7 +98,7 @@ Digitl pins 2-9 on the Arduino Uno were directly connected to Elegoo as follows:
 ## LED's
 ### Connecting the LEDS to the Arduino Uno
 
-The LED's were wired by "wrapping" a wire to the negative leg and another to the positive leg (these wires differed in lenght depdning on how far they would be placed from the Arduino Uno). The wires were then attached to a jumper wire to ease connectivity with the breadboard and Arduino Uno. 
+The LED's were wired by "wrapping" a wire to the negative leg and another to the positive leg (these wires differed in length depending on how far they would be placed from the Arduino Uno). The wires were then attached to a jumper wire to ease connectivity with the breadboard and Arduino Uno. 
 All LED's received Ground from the bread board, via 560KOhm resistors, to ensure the LED's did not receive too much power. 3 560KOhm resistors were used for LED2 as it was brighter than the rest and we wished to dull its brightness.  
 LED1 was connected to the Arduino Uno via pin11. 
 LED2 was connected to the Arduino Uno via pin13. 
@@ -134,7 +134,7 @@ WM1 was connected to Pin12 on the Arduino Uno
 
 
 ## Add all components to Frame
-Once everything has been wired all components were added to the frame. 
+Once everything had been wired all components were added to the frame. 
 
 *See picture below for fully compleyted hardware*
 
@@ -171,7 +171,7 @@ Simply insert the silicone hoses into your choice of mix and Get-Your-Drink-On.
 
 In order for the build to work as desired simply follow the above instructions and copy-paste our code into your Arduino code, then you are set to go! 
 
-*click on the linke below for a video of our project!* 
+*Click on the link below for a video of our project!* 
 
 https://user-images.githubusercontent.com/79594183/114253867-70eb0b80-9969-11eb-97e5-9b551813fb7d.mp4
 
